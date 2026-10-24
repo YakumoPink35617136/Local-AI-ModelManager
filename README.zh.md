@@ -78,9 +78,9 @@
 
 | 服务 | 探测路径 | 默认端口 |
 |---|---|---|
-| Genie TTS | `Genie-TTS GUI/server.bat` 或 `tts/server.bat` | 9880 |
+| [Genie TTS](https://github.com/High-Logic/Genie) | `Genie-TTS GUI/server.bat` 或 `tts/server.bat` | 9880 |
 | TTS Proxy | `Genie-TTS GUI/start-proxy.bat` 或 `tts/start-proxy.bat` | 9881 |
-| GPT-SoVITS API | `tts/start-gsv-api.bat` | 9883 |
+| [GPT-SoVITS API](https://github.com/RVC-Boss/GPT-SoVITS) | `tts/start-gsv-api.bat` | 9883 |
 | GSV Proxy | `tts/start-gsv-proxy.bat` | 9882 |
 
 端口只是默认值，可以直接在对应的 `.bat` 文件里改。
@@ -101,7 +101,8 @@ SillyTavern 也可以接入，但管理器不管它的端口，请在 SillyTaver
 - `gsv_proxy.py`：GPT-SoVITS `api_v2` 的 OpenAI 风格代理（9882）
 
 `server.py` / `proxy.py` 基于 [genie-tts](https://github.com/High-Logic/Genie)（MIT）。
-`start-gsv-api.bat` 和 `gsv_proxy.py` 需要你自己安装 GPT-SoVITS 引擎，仓库不打包它。
+`start-gsv-api.bat` 和 `gsv_proxy.py` 需要你自己安装
+[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 引擎，仓库不打包它。
 
 **语音模型不包含在仓库里**，安装步骤见 [TTS 安装指南](tts/README.zh.md)。
 
@@ -111,6 +112,15 @@ SillyTavern 也可以接入，但管理器不管它的端口，请在 SillyTaver
 
 服务默认只绑定 `127.0.0.1`。如果要暴露到局域网，请在 **设置** 里配置 API Key。
 管理器不会上传任何数据。
+
+---
+
+## 相关项目
+
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)
+- [Genie TTS](https://github.com/High-Logic/Genie)
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+- [SillyTavern](https://github.com/SillyTavern/SillyTavern)（可选接入）
 
 ---
 

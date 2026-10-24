@@ -6,7 +6,7 @@ Small wrappers for two local TTS engines.
 
 | Component | Provided by | Port | Notes |
 |---|---|---|---|
-| `server.py` | **this repo** | 9880 | Genie TTS server; needs the `genie-tts` package |
+| `server.py` | **this repo** | 9880 | Genie TTS server; needs the [genie-tts](https://github.com/High-Logic/Genie) package |
 | `proxy.py` | **this repo** | 9881 | OpenAI-compatible proxy for Genie |
 | `api_v2.py` | GPT-SoVITS upstream | 9883 | **not bundled**; install GPT-SoVITS separately |
 | `start-gsv-api.bat` | **this repo** | 9883 | Launches GPT-SoVITS from `tts/GPT-SoVITS/` |

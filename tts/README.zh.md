@@ -6,7 +6,7 @@
 
 | 组件 | 谁提供 | 端口 | 说明 |
 |---|---|---|---|
-| `server.py` | **本仓库** | 9880 | Genie TTS 服务端，依赖 `genie-tts` 包 |
+| `server.py` | **本仓库** | 9880 | Genie TTS 服务端，依赖 [genie-tts](https://github.com/High-Logic/Genie) 包 |
 | `proxy.py` | **本仓库** | 9881 | Genie 的 OpenAI 兼容代理 |
 | `api_v2.py` | GPT-SoVITS 官方 | 9883 | **不在仓库里**，需自行安装 |
 | `start-gsv-api.bat` | **本仓库** | 9883 | 从 `tts/GPT-SoVITS/` 启动 GPT-SoVITS |

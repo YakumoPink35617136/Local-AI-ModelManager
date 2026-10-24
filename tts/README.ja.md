@@ -7,7 +7,7 @@
 
 | コンポーネント | 提供元 | ポート | 説明 |
 |---|---|---|---|
-| `server.py` | **このリポジトリ** | 9880 | Genie TTS サーバー。`genie-tts` に依存 |
+| `server.py` | **このリポジトリ** | 9880 | Genie TTS サーバー。[genie-tts](https://github.com/High-Logic/Genie) に依存 |
 | `proxy.py` | **このリポジトリ** | 9881 | Genie 用 OpenAI 互換プロキシ |
 | `api_v2.py` | GPT-SoVITS 公式 | 9883 | **同梱されていません**。別途インストール |
 | `start-gsv-api.bat` | **このリポジトリ** | 9883 | `tts/GPT-SoVITS/` から GPT-SoVITS を起動 |

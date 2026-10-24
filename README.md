@@ -83,9 +83,9 @@ these if they sit next to it or in a parent folder:
 
 | Service | Detected path | Default port |
 |---|---|---|
-| Genie TTS | `Genie-TTS GUI/server.bat` or `tts/server.bat` | 9880 |
+| [Genie TTS](https://github.com/High-Logic/Genie) | `Genie-TTS GUI/server.bat` or `tts/server.bat` | 9880 |
 | TTS Proxy | `Genie-TTS GUI/start-proxy.bat` or `tts/start-proxy.bat` | 9881 |
-| GPT-SoVITS API | `tts/start-gsv-api.bat` | 9883 |
+| [GPT-SoVITS API](https://github.com/RVC-Boss/GPT-SoVITS) | `tts/start-gsv-api.bat` | 9883 |
 | GSV Proxy | `tts/start-gsv-proxy.bat` | 9882 |
 
 Ports are only defaults; change them in the corresponding `.bat` file.
@@ -106,8 +106,9 @@ The `tts/` folder contains wrappers for two engines:
 - `gsv_proxy.py` — OpenAI-style proxy for a GPT-SoVITS `api_v2` server (9882)
 
 `server.py` / `proxy.py` wrap [genie-tts](https://github.com/High-Logic/Genie)
-(MIT). `start-gsv-api.bat` and `gsv_proxy.py` need a GPT-SoVITS installation,
-which is not bundled.
+(MIT). `start-gsv-api.bat` and `gsv_proxy.py` need a
+[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) installation, which is not
+bundled.
 
 Voice models are **not included**. See the [TTS installation guide](tts/README.md).
 
@@ -117,6 +118,15 @@ Voice models are **not included**. See the [TTS installation guide](tts/README.m
 
 The server binds to `127.0.0.1` by default. If you expose it on a network,
 set an API key in **设置**. The manager never uploads anything.
+
+---
+
+## Related projects
+
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)
+- [Genie TTS](https://github.com/High-Logic/Genie)
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+- [SillyTavern](https://github.com/SillyTavern/SillyTavern) (optional integration)
 
 ---
 

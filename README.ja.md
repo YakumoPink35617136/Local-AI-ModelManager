@@ -82,9 +82,9 @@
 
 | サービス | 検出パス | 既定ポート |
 |---|---|---|
-| Genie TTS | `Genie-TTS GUI/server.bat` または `tts/server.bat` | 9880 |
+| [Genie TTS](https://github.com/High-Logic/Genie) | `Genie-TTS GUI/server.bat` または `tts/server.bat` | 9880 |
 | TTS Proxy | `Genie-TTS GUI/start-proxy.bat` または `tts/start-proxy.bat` | 9881 |
-| GPT-SoVITS API | `tts/start-gsv-api.bat` | 9883 |
+| [GPT-SoVITS API](https://github.com/RVC-Boss/GPT-SoVITS) | `tts/start-gsv-api.bat` | 9883 |
 | GSV Proxy | `tts/start-gsv-proxy.bat` | 9882 |
 
 ポートは既定値です。変更する場合は、対応する `.bat` ファイルを編集してください。
@@ -107,7 +107,8 @@ SillyTavern 側で設定するか、カスタムサービスとして追加し�
 
 `server.py` / `proxy.py` は [genie-tts](https://github.com/High-Logic/Genie)
 （MIT）のラッパーです。`start-gsv-api.bat` と `gsv_proxy.py` を使うには
-GPT-SoVITS 本体を別途インストールしてください（同梱されていません）。
+[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) 本体を別途
+インストールしてください（同梱されていません）。
 
 **音声モデルは同梱されていません。** 手順は
 [TTS インストールガイド](tts/README.ja.md) を参照してください。
@@ -118,6 +119,15 @@ GPT-SoVITS 本体を別途インストールしてください（同梱されて
 
 サーバーは既定で `127.0.0.1` にのみバインドされます。ネットワークに公開する場合は、
 **设置** で API キーを設定してください。マネージャーは外部へ何も送信しません。
+
+---
+
+## 関連プロジェクト
+
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)
+- [Genie TTS](https://github.com/High-Logic/Genie)
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+- [SillyTavern](https://github.com/SillyTavern/SillyTavern)（任意の連携）
 
 ---
 
