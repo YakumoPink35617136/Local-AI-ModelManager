@@ -1,0 +1,15 @@
+# TTS wrapper dependencies (tested with Python 3.13)
+#
+#   Genie TTS server (server.py): genie-tts, fastapi, uvicorn, requests
+#   Genie TTS proxy  (proxy.py):  fastapi, uvicorn, requests
+#   GPT-SoVITS proxy (gsv_proxy.py): fastapi, uvicorn, requests
+#
+# The model manager itself needs NONE of these.
+#
+# The GPT-SoVITS engine (api_v2.py) is NOT included in this repository.
+# Install it separately; this file only covers the wrappers.
+
+genie-tts==2.0.2
+fastapi
+uvicorn
+requests

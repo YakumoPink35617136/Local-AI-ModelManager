@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "default": "voice_a",
+  "genie_default": "voice_a",
+  "models": {
+    "voice_a": {
+      "character_name": "voice_a",
+      "model_dir": "genie_models/voice_a/tts_models",
+      "language": "zh"
+    }
+  },
+  "voices": {
+    "voice_a": {
+      "lang": "zh",
+      "ref": "refs/voice_a/ref.wav",
+      "prompt": "Transcript of the reference audio.",
+      "genie_model": "voice_a",
+      "gpt_ref": "refs/voice_a/ref.wav",
+      "gpt_prompt": "Transcript of the reference audio.",
+      "aliases": [
+        "voice a"
+      ]
+    }
+  }
+}

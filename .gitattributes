@@ -1,0 +1,6 @@
+* text=auto
+*.bat  text eol=crlf
+*.cmd  text eol=crlf
+*.pyw  text eol=lf
+*.md   text eol=lf
+*.json text eol=lf

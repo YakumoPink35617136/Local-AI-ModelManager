@@ -1,0 +1,49 @@
+# Local configuration and runtime state
+config.json
+config.json.tmp
+router-presets.ini
+themes/
+manager.log
+logs/
+*.log
+
+# Backups created while editing this project
+*.bak
+*.bak-*
+*.orig
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local model files
+models/
+
+# TTS runtime data and models
+tts/VoiceLibrary/
+tts/CharacterModels/
+tts/GenieData/
+tts/GPT-SoVITS*/
+tts/*.log
+
+# Local preview artifacts
+.preview*
+
+# Local screenshots and test artifacts
+_shot*.png
+_tab_*.png
+_final.png
+_dialog.png
+_pw.png
+_gui.out
+_testcfg/
+_preset_test*
+_router_test*

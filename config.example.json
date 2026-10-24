@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "server_path": "",
+  "server_builds": [],
+  "scan_dirs": [
+    ".."
+  ],
+  "mode": "router",
+  "host": "127.0.0.1",
+  "port": 8081,
+  "models_max": 1,
+  "expose_assigned_only": true,
+  "api_key": "",
+  "vram_gb": 0,
+  "vram_reserve_gb": 0.95,
+  "language": "zh",
+  "defaults": {
+    "ctx": 32768,
+    "kvk": "f16",
+    "kvv": "f16",
+    "ngl": 999,
+    "batch": 2048,
+    "ubatch": 512,
+    "parallel": 1,
+    "vision_cpu": true,
+    "mtmd_batch": 256,
+    "extra": "",
+    "mtp": false,
+    "mtp_enabled": true,
+    "mtp_draft_n": 2,
+    "load_mode": "auto"
+  },
+  "profiles": {},
+  "clients": [
+    {
+      "name": "Chat",
+      "profile": ""
+    }
+  ],
+  "services": [],
+  "dismissed_plugins": [],
+  "logs_dir": "logs",
+  "router_preset": "router-presets.ini",
+  "ui": {
+    "theme": "暖夜",
+    "colors": {}
+  }
+}
