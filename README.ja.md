@@ -124,9 +124,9 @@ SillyTavern 側で設定するか、カスタムサービスとして追加し�
 
 ## 関連プロジェクト
 
-- [llama.cpp](https://github.com/ggml-org/llama.cpp)
-- [Genie TTS](https://github.com/High-Logic/Genie)
-- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)（必須）
+- [Genie TTS](https://github.com/High-Logic/Genie)（任意の連携）
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)（任意の連携）
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern)（任意の連携）
 
 ---

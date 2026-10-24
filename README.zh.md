@@ -117,9 +117,9 @@ SillyTavern 也可以接入，但管理器不管它的端口，请在 SillyTaver
 
 ## 相关项目
 
-- [llama.cpp](https://github.com/ggml-org/llama.cpp)
-- [Genie TTS](https://github.com/High-Logic/Genie)
-- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)（必需）
+- [Genie TTS](https://github.com/High-Logic/Genie)（可选接入）
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)（可选接入）
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern)（可选接入）
 
 ---

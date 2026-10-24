@@ -123,9 +123,9 @@ set an API key in **设置**. The manager never uploads anything.
 
 ## Related projects
 
-- [llama.cpp](https://github.com/ggml-org/llama.cpp)
-- [Genie TTS](https://github.com/High-Logic/Genie)
-- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) (required)
+- [Genie TTS](https://github.com/High-Logic/Genie) (optional integration)
+- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) (optional integration)
 - [SillyTavern](https://github.com/SillyTavern/SillyTavern) (optional integration)
 
 ---
