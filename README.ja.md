@@ -14,6 +14,16 @@
 
 ---
 
+## ダウンロード
+
+- **GitHub Releases** — 推奨
+- **Quark** — <https://pan.quark.cn/s/01b5f690ad4b?pwd=LVjb>（コード `LVjb`）
+- **Baidu** — <https://pan.baidu.com/s/1JlMh83uQjBxbclVHy9GQEA?pwd=13c2>（コード `13c2`）
+
+GitHub のリリースを優先してください。ネットディスクはミラーです。
+
+---
+
 ## 機能
 
 - **一括インポート**：複数の GGUF をまとめて、またはフォルダーごと取り込みます。

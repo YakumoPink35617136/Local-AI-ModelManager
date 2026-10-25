@@ -14,6 +14,16 @@
 
 ---
 
+## 下载
+
+- **GitHub Releases** — 推荐
+- **夸克网盘** — <https://pan.quark.cn/s/01b5f690ad4b?pwd=LVjb> 提取码 `LVjb`
+- **百度网盘** — <https://pan.baidu.com/s/1JlMh83uQjBxbclVHy9GQEA?pwd=13c2> 提取码 `13c2`
+
+以 GitHub Release 为准，网盘只是镜像。
+
+---
+
 ## 功能
 
 - **批量导入**：一次导入多个 GGUF，或直接导入整个目录。

@@ -15,6 +15,16 @@ the same time, loading only the model each request asks for.
 
 ---
 
+## Download
+
+- **GitHub Releases** — recommended
+- **Quark** — <https://pan.quark.cn/s/01b5f690ad4b?pwd=LVjb> (code `LVjb`)
+- **Baidu** — <https://pan.baidu.com/s/1JlMh83uQjBxbclVHy9GQEA?pwd=13c2> (code `13c2`)
+
+The GitHub release is the primary source; the netdisks are mirrors.
+
+---
+
 ## Features
 
 - **Batch import** many GGUF files at once, or import a whole directory.
